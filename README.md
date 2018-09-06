@@ -29,7 +29,7 @@ I will never get these past three weeks of my life back.
       react-native-git-upgrade: 0.2.7
 ```
 
-This bug seems to occur in all bundle outputs, however somehow only crashes on iOS in Release mode. I do not understand but I do have a reproduction:
+<s>This bug seems to occur in all bundle outputs, however somehow only crashes on iOS in Release mode. I do not understand but I do have a reproduction:</s> This crashes in release mode for both iOS and Android.
 
 [This commit](https://github.com/mjmasn/PossibleMetroBug/commit/5304d2ec365f04a03a21a96293d1243bae5e01f2) breaks the generated code.
 
